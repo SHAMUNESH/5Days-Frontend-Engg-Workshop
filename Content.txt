@@ -1,0 +1,47 @@
+##Frontend Engineering Workshop
+
+#DAY 1
+
+-> Understanding How the Frontend Works! (Modern Development)
+-> Commom Myth about developers
+-> Tech involved and its scope of branches
+-> Getting the foundation strong (HTML)
+
+    HTML - Hyper Text Markup Language
+    -> Stucture Explanation
+    -> Tags (Heading,Paragraph,Image,Links,div,Forms,Tables)
+    CSS - Cacading Style Sheet
+    -> Types , Class & ID, Box Model, Position(static,relative,fixed,absolute,sticky), display (block,inline,none), grid
+    JS
+    -> Setup and Syntax
+    -> What is DOM Manipulation
+    -> Functions and properties on buttons
+    -> addEventListener
+
+-> Bootstrap Setup (Based on the time schedule!)
+
+
+Bible for Developers (Self Leran) -> https://www.w3schools.com/
+TODO (Terms to explore!)
+SEO - Search Engine Optimization
+Google Lighthouse
+SCSS -Css Frameworks
+How id >>> class? 
+CSS Style Properties
+
+# DAY 2
+
+-> Bootstrap Setup and Layout
+-> JS (Getting started with JS)
+    -> Why JS for Web Dev Frontend?
+    -> Setup and Syntax
+    -> What is DOM Manipulation
+    -> Functions and properties on buttons
+    -> addEventListener
+
+-> Examples and frontend features Development
+-> Geolocation API
+
+TODO
+-> Explore css for small devices
+-> Get the railway time as user input, and greet them accordingly with image!

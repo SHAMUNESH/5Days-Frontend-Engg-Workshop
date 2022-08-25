@@ -1,0 +1,29 @@
+.para{
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#greet{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    position: relative;
+    top: 40px;
+    left: 40%;
+    right: 20px;
+    bottom: 0;
+    background-color: antiquewhite;
+    width: 50%;
+    height: 300px;
+    border: 2px solid  #5dade2 ;
+    padding: 10px;
+    display: block;
+    
+}
+.btn-div{
+    position: absolute;
+    left: 40%;
+}
