@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build!T Break!T </title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <!-- Parent Class -->
+    <div class="container" id="container"> 
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i style="color: #4267B2;" class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social"><i style="color: #0077b5;" class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <input type="password" placeholder=" Confirm Password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <!-- Inline Container -->
+        <div class="form-container login-container">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i style="color: #4267B2;" class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social"><i style="color: #0077b5;" class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <a href="#" style="color: #4267B2;">Forgot your password?</a>
+                <button>Login</button>
+            </form>
+        </div>
+        <!-- Overlay - Over Layered -->
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Ninjas!</h1>
+                    <p>Already own a account with us? Enter Credentials and Login!</p>
+                    <button class="ghost" id="signIn">Login</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 style="font-size: 25px;">Hey! Are you new to Build!T Break!T ?</h1>
+                    <p>Enter your details, and Create a New Account with us!</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="./app.js"></script>
+</body>
+</html>

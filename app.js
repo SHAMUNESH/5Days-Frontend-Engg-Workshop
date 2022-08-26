@@ -1,32 +1,29 @@
-// DOM Manipulations
 
-function alertCart(){
-   document.getElementById("alert-cart").innerHTML = "Item Added to cart successfully!"; 
-   document.getElementById("alert-cart").style.color = "green";
-//    alert("Added!")
+
+
+
+function greetFunc(){
+    document.getElementById("greet").innerHTML = "Thank you!";
+    document.getElementById("greet").style.color = "green";
 }
 
-// Form Validation
+// document.getElementById("myBtn").addEventListener("click", function() {
+//     alert("Hello World!");
+// });
+//Form Validation
 
-function validateForm(){
-    let input = document.forms["login"]["Email"].value;
-
-    if(input == ""){
-        alert("Email is required!");
+function validateEmail(){
+    let data = document.forms["loginForm"]["emailData"];
+    if(data = " "){
+        alert("Please enter your email!");
         return false;
     }
 }
 
-// Get UpperCase only
-
-function upperCase(){
-    const input = document.getElementById("uname");
-    input.value = input.value.toUpperCase();
-}
 
 //Geolocation API
 
-const data = document.getElementById("location");
+const data = document.getElementById("test");
 
 // User prompt - permission
 function getLocation(){
@@ -42,4 +39,7 @@ function getPosition(position){
    data.innerHTML = "Lattitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
 }
 
-
+function changeTheme(){
+  document.getElementById("main").style.backgroundColor = " #2e4053 ";
+  document.getElementById("theme").innerHTML = "Light Theme";
+}
